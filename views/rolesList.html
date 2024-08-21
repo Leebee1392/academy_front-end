@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Roles List</title>
+    </head>
+    <body>
+        <h1>Roles List</h1>
+        <ul>
+            {% for role in roles %}
+                <li>{{ role.roleName }}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
